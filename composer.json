@@ -1,0 +1,35 @@
+{
+  "name": "s3rgiosan/wpzeerat",
+  "description": "Easy integration of Zeerat into your WordPress website.",
+  "type": "wordpress-plugin",
+  "keywords": [
+    "wordpress",
+    "plugin"
+  ],
+  "homepage": "https://github.com/s3rgiosan/wpzeerat",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Sérgio Santos",
+      "email": "me@s3rgiosan.com",
+      "homepage": "https://github.com/s3rgiosan"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/s3rgiosan/wpzeerat/issues",
+    "source": "https://github.com/s3rgiosan/wpzeerat"
+  },
+  "autoload": {
+    "psr-4": {
+      "s3rgiosan\\Zeerat\\": "lib/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "s3rgiosan\\Tests\\Zeerat\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "dangoodman/composer-for-wordpress": "^1.0"
+  }
+}

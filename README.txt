@@ -1,9 +1,9 @@
 === Zeerat ===
 Contributors: s3rgiosan
-Tags: zeerat, analytics, user, behavior, interaction, testing, feedback, support
+Tags: zeerat, analytics, user, behavior, interaction, testing, heatmaps, conversion, funnels, tracking
 Requires at least: 4.0
-Tested up to: 4.7
-Stable tag: 1.0.0
+Tested up to: 5.1
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,43 +11,56 @@ Easy integration of Zeerat into your WordPress website.
 
 == Description ==
 
-Record and watch customers on your site like on a camera. Save your energy and time thanks to virtual assistant, who's scanning the data and spots the problems for you.
+[Zeerat](https://www.zeerat.com/) helps people to understand visitors’ behavior on a website, reveals bugs and errors of a website conversion strategy such as uncompleted goals (form and cart abandonment) or navigation and design problems.
 
-This plugin allows you to easily integrate Zeerat into your WordPress website.
+This plugin allows you to easily integrate [Zeerat](https://www.zeerat.com/) code into your WordPress website.
 
-= Usage =
+Pull requests are welcome on [Github](https://github.com/s3rgiosan/wpzeerat).
 
-Navigate to the 'Zeerat' settings page under the Settings menu and paste your snippet.
+= Features: =
+
+* Disable snippet code on specific posts, pages and custom post types
 
 == Installation ==
 
-= Dashboard =
+= Automated Installation =
 
-1. Go to the 'Plugins' menu, and choose 'Add New'.
-2. Search for 'wpzeerat', and then click 'Install Now'.
-2. Click 'Activate'.
+1. Go to the "Plugins" menu, and choose "Add New".
+2. Search for "wpzeerat", and then click "Install Now".
+2. Click "Activate".
 
-= FTP =
+= Manual Alternatives =
 
 1. Download and extract the .zip file.
 2. Upload the unzipped folder to the `/wp-content/plugins/` directory.
 3. Activate the plugin through the 'Plugins' menu.
 
-= Composer =
-
 `composer require s3rgiosan/wpzeerat`
+
+= Configuration =
+
+After installation, configure the plugin by visiting Settings -> Zeerat and entering your snippet code.
+
+== Support ==
+
+For questions, feature requests, and support concerning the Zeerat plugin, please refer to [Github](https://github.com/s3rgiosan/wpzeerat).
 
 == Frequently Asked Questions ==
 
-= Where can I report bugs? =
+= Do I need a Zeerat account to use this plugin? =
 
-Bugs can be reported on the [GitHub repository](https://github.com/s3rgiosan/wpzeerat/issues).
+Yes. You can sign up for a Zeerat account [here](https://www.zeerat.com/).
 
-= How can I contribute? =
+= Where can I find out more about Zeerat? =
 
-Join in on our [GitHub repository](https://github.com/s3rgiosan/wpzeerat) and read our [contribution](https://github.com/s3rgiosan/wpzeerat/blob/master/CONTRIBUTING.md) guidelines.
+Visit the Zeerat [website](https://www.zeerat.com/) to learn more about Zeerat and how you can use it to start gaining insights into how users use your website.
 
 == Changelog ==
+
+= 1.1.0 =
+* Tested with WordPress 5.1.
+* Sanitize snippet code.
+* Added plugin action links.
 
 = 1.0.0 =
 * Initial release.

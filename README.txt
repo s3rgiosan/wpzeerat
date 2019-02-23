@@ -17,6 +17,8 @@ This plugin allows you to easily integrate [Zeerat](https://www.zeerat.com/) cod
 
 Pull requests are welcome on [Github](https://github.com/s3rgiosan/wpzeerat).
 
+[](http://coderisk.com/wp/plugin/wpzeerat/RIPS-SvcIg0b13c)
+
 = Features: =
 
 * Disable snippet code on specific posts, pages and custom post types
@@ -29,11 +31,13 @@ Pull requests are welcome on [Github](https://github.com/s3rgiosan/wpzeerat).
 2. Search for "wpzeerat", and then click "Install Now".
 2. Click "Activate".
 
-= Manual Alternatives =
+= FTP =
 
 1. Download and extract the .zip file.
 2. Upload the unzipped folder to the `/wp-content/plugins/` directory.
 3. Activate the plugin through the 'Plugins' menu.
+
+= Composer =
 
 `composer require s3rgiosan/wpzeerat`
 
